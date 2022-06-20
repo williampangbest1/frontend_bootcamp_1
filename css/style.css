@@ -1,0 +1,19 @@
+/* Make sure that navbar doesn't hide elements of website */
+body::before {
+    display: block;
+    content: '';
+    height: 60px
+}
+
+/* Customize Newsletter Input */
+@media(min-width: 768 px) {
+    .news-input{
+        width: 50%;
+    }
+}
+/* For the mapbox */
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
